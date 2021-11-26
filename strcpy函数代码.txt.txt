@@ -1,0 +1,11 @@
+char* StrCpy(char* src) {
+	int x = 0;
+	for (x; src[x]; x++);
+	char* reply = (char*)malloc(sizeof(char) * x);
+	int i = 0;
+	for (int i; i < x; i++) {
+		reply[i] = src[i];
+	}
+	reply[x] = '\0';
+	return reply;
+}
