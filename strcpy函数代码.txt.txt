@@ -9,3 +9,7 @@ char* StrCpy(char* src) {
 	reply[x] = '\0';
 	return reply;
 }
+
+/**
+本地编辑
+**/
